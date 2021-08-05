@@ -208,8 +208,8 @@ footer .to_top {position: fixed; bottom:50px; right: 50px; font-size: 24px; z-in
     .section .visual_slider figure {padding: 0 10px;}
     .section .visual_slider img {width: 100%; border-radius: 50%;}
     
-    .section .slider_arrows i {position: absolute; top: 50%; left: auto; font-size: 100px;
-        color:rgba(158, 119, 247, 0.596); z-index: 999;}
+    .section .slider_arrows i {position: absolute; top: 50%; left: 50%; font-size: 100px;
+        color:rgba(158, 119, 247, 0.596); z-index: 999; margin-top: -50px;}
     .section .slider_arrows i.right {margin-left: 0; transform: translate(0, 0); left: auto; right: 30px;}
     .section .slider_arrows i.left {margin-left: 0; transform: translate(0, 0); left: 30px;}
     

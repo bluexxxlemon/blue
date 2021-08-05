@@ -45,13 +45,13 @@ $(function(){
         arrows:false,
         dots:true,
         slidesToShow:3,
-        responive: [
+        responsive: [
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                 }
-            }
+            },
         ]
     });
 
