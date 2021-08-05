@@ -237,9 +237,9 @@ line-height: 1.5;}
 
 #movie01 {padding: 100px 0;}
 
-/* #movie01 .container {display: flex; width: 1200px; margin: 0 auto;}
+#movie01 .container {display: flex; width: 1200px; margin: 0 auto;}
 #movie01 .container:after {content: ""; display: block; clear: both;}
-#movie01 .container>* {flex: 1; padding: 0 15px;} */
+#movie01 .container>* {flex: 1; padding: 0 15px;}
 #movie01 .container figure video {width: 100%;}
 
 #movie01 .container {width: 1200px; margin: 0 auto; overflow: hidden;}
@@ -258,24 +258,26 @@ line-height: 1.6;}
 @media (max-width:768px) {
     #movie01 {padding: 100px 0;}
 
+    #movie01 .container:after {content: ""; display: block; clear: both;}
+    #movie01 .container>* {flex: 1; padding: 0 15px;}
     #movie01 .container figure video {width: 100%;}
 
-    #movie01 .container {width: auto; margin: 0 auto; overflow: hidden;}
-    #movie01 .container figure {float: left; width: 50%; padding: 0 15px;}
-    #movie01 .container txt {float: left; width: 50%; padding: 0 15px;}
-    #movie01 i {font-size: 30px; color: #fff; background: #333; padding: 10px;
+    #movie01 .container {width: auto; margin: 0 auto; overflow: hidden; display: flex; flex-direction: column;}
+    #movie01 .container figure {float: left; width: 100%; padding: 0 15px;}
+    #movie01 .container txt {float: left; width: 100%; padding: 0 15px;}
+    #movie01 i {font-size: 15px; color: #fff; background: #333; padding: 10px;
     border-radius: 50%;}
 
     #movie01 .txt {padding: 50px 15px;}
     #movie01 .txt h2 {font-size: 20px; font-weight: 100; letter-spacing: 0.5em; margin-bottom: 30px;}
     #movie01 .txt p {font-size: 14px; font-weight: 300; letter-spacing: -0.025em; margin-bottom: 30px;
-    line-height: 1.6;}
+    line-height: 1.6; padding: 0 50px 0 0;}
 
 }
 
 
 #movie02 {padding: 100px 0; text-align: center; color: #fff; background: #000;}
-#movie02 i {font-size: 30px; color: #fff; background: #333; padding: 10px;
+#movie02 i {font-size: 15px; color: #fff; background: #333; padding: 10px;
 border-radius: 50%;}
 
 #movie02 .txt {padding: 50px 15px;}
@@ -319,7 +321,7 @@ line-height: 1.6;}
     .product_slider .slick-dots li.slick-active {background: rgb(148, 148, 148);}
     .product_slider .slick-dots li button {display: none;}
 
-    #product i {position: absolute; top: 50%; left: 50%; padding: 10px; font-size: 60px; margin-top: -30px;}
+    #product i {position: absolute; top: 50%; left: 50%; padding: 10px; font-size: 60px;}
     #product .xi-arrow-left {margin-left: 0; left: 15px; transform: translate(0, 0);}
     #product .xi-arrow-right {margin-left: 0; left:auto; right:15px; transform: translate(0, 0);}
 }
