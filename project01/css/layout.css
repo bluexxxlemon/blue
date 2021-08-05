@@ -319,10 +319,9 @@ line-height: 1.6;}
     .product_slider .slick-dots li.slick-active {background: rgb(148, 148, 148);}
     .product_slider .slick-dots li button {display: none;}
 
-    #product i {position: absolute; top: 50%; left: 50%; padding: 10px;
-        transform: translate(-50%, -50%); font-size: 40px;}
-    #product .xi-arrow-left {margin-left: 0; left: 15px;}
-    #product .xi-arrow-right {margin-left: 0; left:auto; right:15px;}
+    #product i {position: absolute; top: 50%; left: 50%; padding: 10px; font-size: 60px; margin-top: -30px;}
+    #product .xi-arrow-left {margin-left: 0; left: 15px; transform: translate(0, 0);}
+    #product .xi-arrow-right {margin-left: 0; left:auto; right:15px; transform: translate(0, 0);}
 }
 
 
