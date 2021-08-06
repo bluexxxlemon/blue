@@ -75,7 +75,7 @@ $(function(){
 
 
       var options = {
-        strings: ['Kimboeun 2021 portfolio'],
+        strings: ['Kimboeun<br>2021 Portfolio'],
         typeSpeed: 120,
         startDelay: 50,
         loop: true,
